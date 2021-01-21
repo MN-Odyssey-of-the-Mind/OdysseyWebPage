@@ -1,0 +1,16 @@
+
+function loadNav() {
+  $("#navbar").load("http://mn.odysseyofthemind.org/resources/navbarElements.html");
+}
+
+function loadDateMessage(){
+  var x = new Date(document.lastModified);
+  console.log(x);
+  document.write("<br /><hr />Last modified: <em>" + x.getDate() + "-" + month(x.getMonth()) +"-" + x.getFullYear()+ "</em> by <em>K.K. Lamberty</em><br />");
+}
+
+function month(number){
+  var months = ["January", "February", "March", "April", "May", "June",
+              "July", "August", "September", "October", "November", "December"];
+  return months[number];
+}

@@ -1,0 +1,99 @@
+body { 
+  color: #000000; /* default text COLOR */
+  background-color: #8c98cc;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0px;
+}
+
+div.card {
+  padding: 20px;
+  margin: 20px 20px 20px 200px;
+}
+
+ul.sidenav {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  width: 200px;
+  background-color: #8c98cc;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+
+ul.sidenav li a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+ 
+ul.sidenav li a.active {
+  background-color: #384697;
+  color: white;
+}
+
+ul.sidenav li a:hover:not(.active) {
+  background-color: #8080b0;
+  color: white;
+}
+
+div.content {
+  margin: 0px 0px 0px 200px;
+  padding: 20px;
+  background-color: white;
+}
+
+img {
+  border-radius: 8px;
+  max-width: 100%;
+  height: auto;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: white;
+}
+
+@media screen and (max-width: 900px) {
+  ul.sidenav {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  
+  ul.sidenav li a {
+    float: left;
+    padding: 15px;
+  }
+
+  div.content {
+    margin: 20px;
+  }
+
+  footer {
+    background-color:  #8c98cc;
+  }
+
+}
+
+@media screen and (max-width: 670px) {
+  ul.sidenav li a {
+    text-align: center;
+    float: none;
+  }
+
+  div.content {
+    margin: 0px;
+    padding: 10px;
+  }
+
+  #main-title {
+    font-size: 18px;
+  }
+}
+
+
+
+  
