@@ -1,6 +1,6 @@
 
 function loadNav() {
-  $("#navbar").load("http://mn.odysseyofthemind.org/resources/navbarElements.html");
+  $("#navbar").load("https://mn.odysseyofthemind.org/resources/navbarElements.html");
 }
 
 function loadDateMessage(){
