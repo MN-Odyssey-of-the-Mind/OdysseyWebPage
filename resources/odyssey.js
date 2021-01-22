@@ -16,5 +16,5 @@ function month(number){
 }
 
 function getTournamentDate() {
-  document.write("April 10, 2021")
+  document.write("April 10, 2021");
 }
