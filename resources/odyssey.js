@@ -14,3 +14,7 @@ function month(number){
               "July", "August", "September", "October", "November", "December"];
   return months[number];
 }
+
+function getTournamentDate() {
+  return "April 10, 2021"
+}
