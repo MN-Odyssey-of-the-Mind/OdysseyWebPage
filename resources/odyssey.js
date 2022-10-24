@@ -26,3 +26,7 @@ function getTournamentOnTimeRegistrationDeadline() {
 function getTournamentLateRegistrationDeadline() {
   document.write("March 30, 2023");
 }
+
+function getAssociationDirectorContact() {
+  document.write("<a href=\"mailto:betziglundberg@charter.net\">Karen Betzig-Lundberg</a>");
+}
