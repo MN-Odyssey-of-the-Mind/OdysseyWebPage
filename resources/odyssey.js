@@ -24,5 +24,5 @@ function getTournamentOnTimeRegistrationDeadline() {
 }
 
 function getTournamentLateRegistrationDeadline() {
-  document.write("February 15, 2023");
+  document.write("March 30, 2023");
 }
