@@ -20,9 +20,9 @@ function getTournamentDate() {
 }
 
 function getTournamentOnTimeRegistrationDeadline() {
-  document.write("February 15, 2023")
+  document.write("February 15, 2023");
 }
 
 function getTournamentLateRegistrationDeadline() {
-  document.write("February 15, 2023")
+  document.write("February 15, 2023");
 }
