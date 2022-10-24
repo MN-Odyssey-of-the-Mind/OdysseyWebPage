@@ -28,5 +28,5 @@ function getTournamentLateRegistrationDeadline() {
 }
 
 function getAssociationDirectorContact() {
-  document.write("<a href=\"mailto:betziglundberg@charter.net\">Karen Betzig-Lundberg</a>");
+  document.write('<a href="mailto:betziglundberg@charter.net">Karen Betzig-Lundberg</a>');
 }
