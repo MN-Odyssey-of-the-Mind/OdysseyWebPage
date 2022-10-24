@@ -16,5 +16,13 @@ function month(number){
 }
 
 function getTournamentDate() {
-  document.write("April 9, 2022");
+  document.write("April 15, 2023");
+}
+
+function getTournamentOnTimeRegistrationDeadline() {
+  document.write("February 15, 2023")
+}
+
+function getTournamentLateRegistrationDeadline() {
+  document.write("February 15, 2023")
 }
