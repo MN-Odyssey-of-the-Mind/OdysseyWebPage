@@ -16,17 +16,17 @@ function month(number){
 }
 
 function getTournamentDate() {
-  document.write("April 15, 2023");
+  document.write("April 6, 2024");
 }
 
 function getTournamentOnTimeRegistrationDeadline() {
-  document.write("February 15, 2023");
+  document.write("March 1, 2024");
 }
 
 function getTournamentLateRegistrationDeadline() {
-  document.write("March 30, 2023");
+  document.write("March 30, 2024");
 }
 
 function getAssociationDirectorContact() {
-  document.write('<a href="mailto:betziglundberg@charter.net">Karen Betzig-Lundberg</a>');
+  document.write('<a href="mailto:sheryl.kasella@isd197.org">Sheryl Kasella</a>');
 }
